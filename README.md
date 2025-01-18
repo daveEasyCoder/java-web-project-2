@@ -1,6 +1,6 @@
 # Food Order - Responsive Java Web Project
 
-![Food Order Screenshot](path/to/your/screenshot.png)
+![Food Order Screenshot](https://github.com/daveEasyCoder/java-web-project-2/blob/e89925ab1a04565f351749d51db8bbfbe6aadc0d/foodWeb.png)
 
 ## Description
 
