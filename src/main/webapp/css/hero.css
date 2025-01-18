@@ -1,0 +1,73 @@
+@charset "UTF-8";
+  /* HERO SECTION START */
+  .hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("image/fruit2.jpeg");
+    max-width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .hero-section-texts{
+  color: rgb(255, 246, 198);
+}
+.hero-section-texts h1{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 43px;
+  margin: 3px 0;
+}
+.hero-explore-now{
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: 900;
+  padding: 7px 22px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  margin-top: 21px;
+}
+.welcome{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+  position: relative;
+}
+.welcome::before{
+  content: '';
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  background-color: white;
+  height: 3px;
+  width: 30px;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
+.welcome::after{
+  content: '';
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  background-color: white;
+  height: 3px;
+  width: 30px;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
+.delicious-recipes{
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+  /* HERO SECTION END */
